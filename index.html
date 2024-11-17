@@ -1,11 +1,236 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>liebibyjules</title>
-  </head>
-  <body>
-    Hello Jules
-  </body>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- font -->
+    <link rel="stylesheet" href="https://use.typekit.net/zae8isu.css">
+    <!-- js & css for carousel-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>liebi</title>
+</head>
+<body>
+  <!-- <header style="position: relative;">
+
+    <div class="w3-top" class="header" id="home">
+      <div class="w3-bar w3-left-align w3-large heeder-large-screen" style="background-color: var(--blau);" >
+        <a class="w3-bar-item w3-hide-medium w3-hide-large w3-right w3-padding-large w3-large " href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="#home" class="w3-bar-item w3-padding-large logo">liebibyjules</a>
+        <div>
+          <a href="#home" class="w3-bar-item w3-hide-small w3-padding-large nav_links" >Home</a>
+          <a href="#about" class="w3-bar-item w3-hide-small w3-padding-large nav_links" >Über mich</a>
+          <a href="#liebi" class="w3-bar-item w3-hide-small w3-padding-large nav_links"> Liebi</a>
+          <a href="#contact" class="w3-bar-item w3-hide-small w3-padding-large nav_links">Kontakt</a>
+          <a href="#shop" class="w3-bar-item w3-hide-small w3-padding-large nav_links">Shop</a>
+        </div>
+    
+      </div>
+
+       Navbar on small screens -->
+      <!-- <div id="navDemo" class="w3-bar-block  w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large"onclick="myFunction()">About</a>
+        <a href="#games" class="w3-bar-item w3-button w3-padding-large"onclick="myFunction()">Games</a>
+        <a href="#shop" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Shop</a>
+        <a href="#events" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Events</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
+      </div>
+    </div>
+  </header>-->
+  <header style="position: relative; ">
+    <div class="header-container" style="background: var(--blau);">
+    <a href="#" class="logo"> liebibyjules</a>
+    
+    <div class="nav-items-wrapper"> 
+    <div class="nav-item"> <a href="#">Home</a></div>
+    <div class="nav-item"> <a href="about.html">Über mich</a></div>
+    <div class="nav-item"> <a href="#liebi">Liebi</a></div>
+    <div class="nav-item"> <a href="#contact">Kontakt</a></div>
+    <div class="nav-item"> <a href="#shop">Shop</a></div>
+    </div>
+    
+    
+    </header>
+  <main>
+
+      <section>
+         <div class="liebi" id="about">
+           <div class="liebi-description">
+            <img src="img/herz.svg" alt="logo" class="liebi-herz">
+             <div class="liebi-text">
+              <h1 class="liebi-title">Liebi</h1>
+              <p>by jules</p>
+             </div>
+           </div>
+         </div>
+      </section>
+      <section id="card-carousel">
+
+        <!-- Flickity HTML init -->
+        <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true, "draggable": false}'>
+            <div id="gallery-item1" class="gallery-cell">Dim Papi en Bluemestruus pflücke
+
+              <p class="gallery-item-text">Wachsen.</p>
+            </div>
+            
+
+            <div id="gallery-item2" class="gallery-cell">Es Kafi go trinke mit dinre beste Fründin
+
+              <p class="gallery-item-text">Träumen.</p>
+            </div>
+            
+
+            <div id="gallery-item3" class="gallery-cell"></div>
+
+            <div id="gallery-item4" class="gallery-cell"></div>
+
+            <div id="gallery-item5" class="gallery-cell"></div>
+        </div>
+
+      </section>
+
+
+      <section id="about">
+
+        <div id="aboutjulia">
+
+          <div class="about-image-div">
+            <img src="img/julia.jpeg" alt="Julia" class="about-image">
+          </div>
+          
+          <div class="about-text-div">
+            <h2 class="about-text-title">das isch Liebi</h2>
+            <p class="about-text">Erzähle den Leuten, wer du bist, woher du kommst, wie du arbeitest oder was dich inspiriert. Lass deiner Kreativität freien Lauf. Du kannst das. Die Art und Weise, wie du deine Geschichte online vermittelst, kann einen gewaltigen Unterschied ausmachen. Mach dir keine Gedanken, ob du professionell klingst oder nicht. Klinge einfach wie du selbst.</p>
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <section id="quotes">
+
+        <div id="quotes-wrapper" class="quotes-wrapper ">
+
+            
+        </div>
+     
+
+      </section>
+
+
+      <section id="products">
+        <h2 class="products-title">Vorgestellte Produkte</h2>
+
+        <div class="products-div">
+
+          <div class="product">
+            <img src="img/shirt.png" alt="Shirt print blau" class="product-image">
+            <h3 class="product-title">Shirt print blau</h3>
+            <p class="product-price">25 CHF</p>
+          </div>
+
+          <div class="product">
+            <img src="img/shirt.png" alt="Shirt print wiis" class="product-image">
+            <h3 class="product-title">Shirt print wiis</h3>
+            <p class="product-price">25 CHF</p>
+          </div>
+
+          <div class="product">
+            <img src="img/shirt.png" alt="Shirt chli Liebi" class="product-image">
+            <h3 class="product-title">Shirt chli Liebi</h3>
+            <p class="product-price">25 CHF</p>
+          </div>
+
+          <div class="product">
+            <img src="img/shirt.png" alt="Test Product" class="product-image">
+            <h3 class="product-title">Test Product</h3>
+            <p class="product-price">25 CHF</p>
+          </div>
+
+        </div>
+
+        <div class="button-container">
+          <button class="liebi-btn">Shop</button>
+        </div>
+
+      </section>
+
+
+      <section id="socialmedia">
+
+        <h2 class="products-title">Folge uns auf Social Media</h2>
+
+        <div class="socialmedia-div">
+
+          <div class="socialmedia">
+            <img src="img/instapost.png" alt="Instapost" class="socialmedia-image">
+          </div>
+
+          <div class="socialmedia">
+            <img src="img/instapost.png" alt="Instapost" class="socialmedia-image">
+          </div>
+
+          <div class="socialmedia">
+            <img src="img/instapost.png" alt="Instapost" class="socialmedia-image">
+          </div>
+
+          <div class="socialmedia">
+            <img src="img/instapost.png" alt="Instapost" class="socialmedia-image">
+          </div>
+
+        </div>
+
+        <div class="button-container">
+          <button class="liebi-btn">Social Media</button>
+        </div>
+
+
+      </section>
+
+
+      <section id="contact">
+
+        <div class="contact-div">
+
+          <div class="contact-text-div">
+            <h2 class="contact-title">Kontaktiere uns</h2>
+            <p class="contact-text">Gib an, mit welchen Anliegen man dich kontaktieren kann und was man nach der Kontaktaufnahme erwarten kann. Denke daran, eine Speicheroption für Einsendungen auszuwählen.</p>
+          </div>
+
+          <div class="contact-form">
+            <form action="">
+
+              <label class="contact-label" for="email">E-Mail-Adresse<span class="contact-required-text">(erforderlich)</span></label><br>
+              <input class="contact-inputfield" type="email" id="email" name="email"><br>
+
+              <label class="contact-label" for="message">Nachricht</label><span class="contact-required-text">(erforderlich)</span><br>
+              <textarea class="contact-inputfield" rows="5" id="message" name="message"></textarea><br>
+
+              <button class="liebi-btn" type="submit">Senden</button>
+
+            </form>
+
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer>
+      <div class="footer-div">
+          <p>liebibyjules</p>
+          <a href="https://www.instagram.com/liebischenke/" target="_blank">
+              <img src="img/instalogo.svg" alt="Instagram icon" width="30" height="30">
+          </a>
+      </div>
+  </footer>
+      <script src="./js/main.js"></script>
+  <script src="js/script.js"></script>
+</body>
 </html>

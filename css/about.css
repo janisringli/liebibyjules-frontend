@@ -1,0 +1,118 @@
+.introduction-wrapper {
+  margin-top: 79.5px;
+  background: url(../img/jules-intro.JPG) no-repeat center center fixed;
+  background-size: cover;
+
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 45%;
+  padding-top: 128px;
+  padding-bottom: 210px;
+}
+.introduction {
+  color: white;
+  width: 30%;
+}
+.liebi-section {
+  background-color: var(--hell-rosa);
+  width: 100vw;
+  height: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.liebi-content {
+  padding-top: 70px;
+}
+.liebi-box-container {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  width: auto;
+  overflow: scroll;
+}
+.liebi-box {
+  height: var(--liebi-box-size);
+  width: var(--liebi-box-size);
+  border: 1px solid var(--blau);
+  margin-bottom: 18px;
+  color: var(--blau);
+}
+.box-important {
+  background-color: var(--blau);
+  color: var(--hell-rosa) !important;
+}
+.box-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  font-weight: 700;
+}
+.box-text {
+  font-size: 10px;
+  color: var(--black);
+}
+.box-explain-title {
+  font-size: 18px;
+  color: var(--black);
+}
+.liebi-box-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: var(--liebi-box-size);
+}
+.box-explain-text {
+  font-size: 14px;
+  color: var(--black);
+  font-weight: 400;
+}
+
+.contact-section-container {
+  background-color: var(--black);
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contact-cta {
+  color: var(--hell-rosa);
+}
+.contact-image {
+  width: 70%;
+  height: auto;
+}
+.contact-form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.contact-name-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.input-half {
+  width: 50%;
+  outline: none;
+  border: 0;
+  background-color: transparent;
+  border-bottom: 1px dotted var(--white);
+}
+.input-full {
+  width: 100%;
+  outline: none;
+  border: 0;
+  background-color: transparent;
+  border-bottom: 1px dotted var(--white);
+}
