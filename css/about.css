@@ -51,11 +51,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 200%;
+  height: 100%;
   font-weight: 700;
+  font-size: 25px;
 }
 .box-text {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--black);
 }
 .box-explain-title {
