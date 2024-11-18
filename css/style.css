@@ -66,8 +66,8 @@
 /* About */
 
 /*Extra Large screens - Extra large desktops*/
-.header {
-}
+
+
 .heeder-large-screen {
   display: flex !important;
   justify-content: space-evenly !important;
@@ -163,8 +163,6 @@
   opacity: 0.8;
 }
 
-main {
-}
 
 .title {
   color: white;
@@ -593,8 +591,7 @@ h5 {
 span {
   padding-right: 10px;
 }
-.contact-list p {
-}
+
 .email-contact {
   width: 80%;
   color: gray;
@@ -766,8 +763,7 @@ html {
   h5 {
     font-size: 15px;
   }
-  .badge {
-  }
+ 
   p {
     font-size: 12px;
   }

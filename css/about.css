@@ -118,3 +118,18 @@
   background-color: transparent;
   border-bottom: 1px dotted var(--white);
 }
+
+.footer-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; /* Modify this line */
+  padding: 30px;
+  background-color: var(--black);
+  gap: 20px;
+  color: var(--white);
+  font-size: 15px;
+  font-family: "itc-fenice", serif;
+  font-style: italic;
+  font-weight: 600;
+}
