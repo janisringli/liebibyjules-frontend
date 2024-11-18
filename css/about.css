@@ -113,6 +113,7 @@
   padding-top: 10px;
   padding-bottom: 5px;
   margin-right: 20px;
+  color: white;
 }
 .input-full {
   width: 100%;
@@ -122,6 +123,7 @@
   border-bottom: 2px dotted var(--white);
   padding-top: 10px;
   padding-bottom: 5px;
+  color: white;
 }
 
 .footer-div {
@@ -143,6 +145,7 @@
   background-color: var(--hell-rosa);
   color: var(--black);
   border: none;
+  width:20%;
   padding: 5px 20px;
   text-align: center;
   text-decoration: none;
@@ -151,4 +154,15 @@
   margin: 10px 2px;
   cursor: pointer;
   border-radius: 5px;
+ 
+}
+
+.Anrede {
+  width: 20%;
+  outline: none;
+  border: 0;
+  background-color: var(--hell-rosa);
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 10px;
 }
