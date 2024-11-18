@@ -105,18 +105,23 @@
   flex-direction: row;
 }
 .input-half {
-  width: 50%;
+  width: 40%;
   outline: none;
   border: 0;
   background-color: transparent;
-  border-bottom: 1px dotted var(--white);
+  border-bottom: 2px dotted var(--white);
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-right: 20px;
 }
 .input-full {
   width: 100%;
   outline: none;
   border: 0;
   background-color: transparent;
-  border-bottom: 1px dotted var(--white);
+  border-bottom: 2px dotted var(--white);
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 .footer-div {
@@ -132,4 +137,18 @@
   font-family: "itc-fenice", serif;
   font-style: italic;
   font-weight: 600;
+}
+
+.submit-button {
+  background-color: var(--hell-rosa);
+  color: var(--black);
+  border: none;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 5px;
 }
