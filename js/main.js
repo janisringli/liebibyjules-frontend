@@ -35,3 +35,4 @@ const getComments = async () => {
 };
 
 getComments();
+
