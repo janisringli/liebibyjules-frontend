@@ -123,15 +123,15 @@
 }
 
 .liebi-herz {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .liebi-text p {
-  color: white;
+  color: var(--hell-rosa);
   font-family: "itc-fenice", serif;
   font-weight: 900;
   font-style: italic;
@@ -139,11 +139,12 @@
 }
 .liebi-title {
   font-size: 120px;
-  color: var(--white);
+  color: var(--hell-rosa);
   text-align: center;
   font-family: "itc-fenice", serif;
   font-weight: 900;
   font-style: italic;
+  height:180px
 }
 
 .liebi-btn {

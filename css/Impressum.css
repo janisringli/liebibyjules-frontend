@@ -1,0 +1,99 @@
+/*CSS variables section*/
+:root {
+    --hell-rosa: #f4e5ef;
+    --rosa: #ec76a9;
+    --rot: #b21c1a;
+    --blau: #2a327c;
+    --black: #000000;
+    --white: #ffffff;
+    --liebi-box-size: 233px;
+  }
+  .serif {
+    font-family: "itc-fenice", serif;
+  }
+  .header-container {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 12px;
+    z-index: 100;
+    background-color: var(--blau);
+  }
+  
+  .nav-items-wrapper {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .nav-item a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  .logo {
+    text-decoration: none;
+    font-family: "itc-fenice", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    color: var(--white);
+  }
+  .liebi-description {
+    height: auto;
+    background-color: var(--hell-rosa);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+  }
+  
+  .liebi-title {
+    font-size: 40px;
+    color: var(--blau);
+    font-family: "itc-fenice", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  .liebi-text p {
+    color: var(--black);
+    font-family: "itc-fenice", serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .footer-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Modify this line */
+    padding: 30px;
+    background-color: var(--blau);
+    gap: 20px;
+    color: var(--white);
+    font-size: 15px;
+    font-family: "itc-fenice", serif;
+    font-style: italic;
+    font-weight: 600;
+  }
+  /* General CSS and CSS reset */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
