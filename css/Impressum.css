@@ -48,8 +48,8 @@
   .footer-impressum a{ 
     text-decoration: none;
     font-family: "itc-fenice", serif;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 15px;
     font-style: italic;
     color: var(--white);
   }
@@ -97,7 +97,7 @@
     text-align: left;
     justify-content: left;
     align-items: left;
-    padding: 50px 50px;
+    padding: 50px 100px;
 
   }
 

@@ -253,7 +253,7 @@
 }
 
 .about-text {
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Avenir", sans-serif;
   margin-right: 25%;
 }
@@ -343,7 +343,7 @@
 }
 
 .product-price {
-  font-size: 16px;
+  font-size: 18px;
   color: var(--black);
   font-family: "avenir", sans-serif;
   font-weight: 300;
@@ -426,7 +426,7 @@
 }
 
 .contact-text {
-  font-size: 16px;
+  font-size: 18px;
   color: var(--black);
   font-family: "avenir", sans-serif;
   font-weight: 300;
@@ -435,7 +435,7 @@
 }
 
 .contact-label {
-  font-size: 16px;
+  font-size: 18px;
   color: var(--black);
   font-family: "avenir", sans-serif;
   font-weight: 300;
@@ -444,7 +444,7 @@
 }
 
 .contact-required-text {
-  font-size: 12px;
+  font-size: 15px;
   color: darkgrey;
   font-family: "avenir", sans-serif;
   font-weight: 300;
