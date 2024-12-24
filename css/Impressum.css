@@ -45,18 +45,21 @@
     font-family: "avenir", sans-serif;
   }
 
-  .footer-impressum {
-    color: var(--white);
+  .footer-impressum a{ 
     text-decoration: none;
-    font-size: 15px;
     font-family: "itc-fenice", serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: italic;
+    color: var(--white);
   }
   
   .logo {
     text-decoration: none;
-    font-family: "avenir", sans-serif;
+    font-family: "itc-fenice", serif;
     font-weight: 400;
     font-size: 20px;
+    font-style: italic;
     color: var(--white);
   }
 
@@ -75,6 +78,7 @@
     font-weight: 900;
     margin-top: 50px;
     text-align: left;
+    
   }
 
   .impressum-überschrift {
