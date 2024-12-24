@@ -42,13 +42,13 @@
     color: var(--white);
     text-decoration: none;
     font-size: 15px;
+    font-family: "avenit", sans-serif;
   }
   
   .logo {
     text-decoration: none;
-    font-family: "itc-fenice", serif;
+    font-family: "avenir", sans-serif;
     font-weight: 400;
-    font-style: italic;
     font-size: 20px;
     color: var(--white);
   }
