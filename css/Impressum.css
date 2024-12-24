@@ -42,7 +42,14 @@
     color: var(--white);
     text-decoration: none;
     font-size: 15px;
-    font-family: "avenit", sans-serif;
+    font-family: "avenir", sans-serif;
+  }
+
+  .footer-impressum {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "itc-fenice", serif;
   }
   
   .logo {
