@@ -171,3 +171,7 @@
   padding-bottom: 5px;
   font-size: 10px;
 }
+
+html {
+  scroll-behavior: smooth;
+}
