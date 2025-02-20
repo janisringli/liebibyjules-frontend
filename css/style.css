@@ -147,6 +147,12 @@
   height:180px
 }
 
+.logo-byjules {
+  font-family: "verveine", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
 .liebi-btn {
   background-color: var(--blau);
   color: white;
